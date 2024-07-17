@@ -1,0 +1,1 @@
+{"pack":{"pack_format":48,"description":"Simple Minigame Collection - for 1.21"},"filter":{"block":[{"namespace":"minecraft","path":"recipe/.*"},{"namespace":"minecraft","path":"advancement/.*"}]}}
