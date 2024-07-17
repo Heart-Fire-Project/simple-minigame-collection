@@ -1,3 +1,6 @@
+# 重置计分板
+scoreboard players set state data 0
+
 # 边界设定
 worldborder set 16
 worldborder center 8.0 8.0
