@@ -1,2 +1,3 @@
-# simple-minigame-collection
-Minecraft 1.21 小游戏地图数据包
+# 🚧 施工现场
+
+这是一个**尚未完工**的数据包仓库，如您有任何**小游戏提议**，请开启一个 Issue 并提出您的建议。
