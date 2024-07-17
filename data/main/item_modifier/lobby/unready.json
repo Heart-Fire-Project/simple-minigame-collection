@@ -1,0 +1,10 @@
+[
+    {
+        "function": "set_name",
+        "name": [{"translate":"smc.lobby.unready","fallback":"未准备 - 按 [%s] 准备","color":"gray","with":[{"keybind":"key.swapOffhand"}],"italic":false}]
+    },
+    {
+        "function": "set_custom_model_data",
+        "value": 70000
+    }
+]

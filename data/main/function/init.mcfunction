@@ -34,7 +34,12 @@ gamerule showDeathMessages false
 # 初始化计分板
 scoreboard objectives remove temp
 scoreboard objectives add temp dummy "临时数据"
+scoreboard objectives remove countdown
+scoreboard objectives add countdown dummy "倒计时"
 scoreboard objectives add data dummy "游戏数据"
+
+# 初始化设置
+scoreboard players set $gamelock data 0
 
 # 初始化队伍
 team add ready "已准备"
@@ -45,6 +50,9 @@ team modify unready color gray
 team modify unready friendlyFire false
 team add player "游戏中"
 team modify player friendlyFire false
+
+# 初始化 Bossbar
+bossbar add smc:info "主信息显示"
 
 # 初始化定时任务
 schedule function main:tick/tick1 1t
